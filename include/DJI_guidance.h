@@ -180,8 +180,8 @@ typedef struct _exposure_param
 	unsigned int  m_is_auto_exposure;	// 1: auto exposure; 0: constant exposure
 	int           m_camera_pair_index;	// index of Guidance Sensor
 	_exposure_param(){
-		m_step = 10;
-		m_exposure_time = 7.68;
+		m_step = 10.f;
+		m_exposure_time = 7.68f;
 		m_expected_brightness = 85;
 		m_is_auto_exposure = 1;
 		m_camera_pair_index = 1;
