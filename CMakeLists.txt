@@ -18,7 +18,7 @@ endif ()
 
 if (${CMAKE_SYSTEM_PROCESSOR} MATCHES "armv7l" )
   message("-- " ${CMAKE_SYSTEM_PROCESSOR} " detected")
-  set(DJI_guidance_LIBRARY_DIR lib/XU3)
+  set(DJI_guidance_LIBRARY_DIR so/XU3)
 else ()
 endif ()
 
